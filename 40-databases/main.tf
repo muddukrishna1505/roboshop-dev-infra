@@ -115,7 +115,7 @@ resource "terraform_data" "rabbitmq" {
   }
 }
 
-resource "aws_instance" "mysql" {
+/* resource "aws_instance" "mysql" {
   ami           = data.aws_ami.joindevops.id
   instance_type = "t3.micro"
   vpc_security_group_ids = [local.mysql_sg_id]
@@ -153,4 +153,4 @@ resource "terraform_data" "mysql" {
       "sudo sh /tmp/bootstrap.sh mysql ${var.environment}"
     ]
   }
-}
+} */
