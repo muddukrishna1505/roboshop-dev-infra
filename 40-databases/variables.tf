@@ -16,6 +16,6 @@ variable "domain_name" {
     default = "bmkrishtech.online"
 }
 
-variable "mysql_root_password" {
+/* variable "mysql_root_password" {
     type = string
-}
+} */
