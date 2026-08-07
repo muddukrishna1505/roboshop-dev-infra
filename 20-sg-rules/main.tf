@@ -91,7 +91,7 @@ resource "aws_security_group_rule" "mysql_bastion" {
   
 }
 
-# rabbbitmq-payment
+# rabbitmq-payment
 
 resource "aws_security_group_rule" "rabbitmq_payment" {
     type = "ingress"
