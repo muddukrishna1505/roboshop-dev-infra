@@ -17,5 +17,5 @@ variable "domain_name" {
 }
 
 variable "mysql_root_password" {
-    type = strings
+    type = string
 }
