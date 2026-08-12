@@ -6,13 +6,9 @@ variable "environment" {
     default = "dev"
 }
 
-variable "app_version" {
-    default = "v3"
-}
-
-/* variable "zone_id" {
+variable "zone_id" {
     default = "Z00981222UH92I1EWAVNF"
-}  */  
+} 
 
 variable "domain_name" {
     default = "bmkrishtech.online"
